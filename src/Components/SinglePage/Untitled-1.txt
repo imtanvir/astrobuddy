@@ -1,0 +1,17 @@
+<main>
+                        <div className="main-logo-image">
+                            <img src={Logo} alt="logo" />
+                        </div>
+                        <div className="main-content-section">
+                            <img src={ChristmasAngel} alt="Charismas angle" />
+                            <div className="btn-group mt-4" role="group" aria-label="Basic example">
+                                <button type="button" className="btn border rounded-pill border-3 animate-hover text-white px-5 py-3 me-4 fw-bold icon-bfr">HOW TO START?</button>
+                                <button type="button" className="btn border rounded-pill border-3 animate-hover text-white px-5 py-3 me-4 fw-bold magic-bfr">MAGIC TRICK?</button>
+                            </div>
+                            <div className="live-container">
+                                <div className="live-section d-inline-block">
+                                    <div className="live-btn btn btn-dark rounded-pill px-4 py-2 fw-bold fs-5">Live</div>
+                                </div>
+                            </div>
+                        </div>
+                    </main>

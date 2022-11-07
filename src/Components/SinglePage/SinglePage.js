@@ -1,11 +1,11 @@
 import React from 'react';
 import './SinglePage.css';
+import './MainSection.css';
 import Group5 from './Group5.png';
 import FaceIcon from './image/FaceIcon.png';
 import Cards from './image/Cards.png';
 import mail from './image/mail.png';
-import Logo from './image/Logo.png';
-import ChristmasAngel from './image/ChristmasAngel.png';
+import Live from './image/Live.jpg';
 const SinglePage = () => {
     return (
         <div>
@@ -27,21 +27,24 @@ const SinglePage = () => {
                         </div>                       
                     </nav>
                     <main>
-                        <div className="main-logo-image">
-                            <img src={Logo} alt="logo" />
-                        </div>
-                        <div className="main-content-section">
-                            <img src={ChristmasAngel} alt="Charismas angle" />
-                            <div className="btn-group mt-4" role="group" aria-label="Basic example">
-                                <button type="button" className="btn border rounded-pill border-3 animate-hover text-white px-5 py-3 me-4 fw-bold icon-bfr">HOW TO START?</button>
-                                <button type="button" className="btn border rounded-pill border-3 animate-hover text-white px-5 py-3 me-4 fw-bold magic-bfr">MAGIC TRICK?</button>
-                            </div>
-                            <div className="live-container">
-                                <div className="live-section d-inline-block">
-                                    <div className="live-btn btn btn-dark rounded-pill px-4 py-2 fw-bold fs-5">Live</div>
+                        <div class="grid-container">
+                            <div class="item1"></div>
+                            <div class="item2"></div>
+                            <div class="item3">
+                                <div className="btngrp">
+                                    <div className="btn rounded-pill border border-white px-md-5 px-sm-3 py-sm-1 py-md-3 me-2 tc-btn fw-bold fs-5 icon-bfr">How it work</div>
+                                    <div className="btn rounded-pill border border-white px-md-5 px-sm-3 py-sm-1 py-md-3 tc-btn fw-bold fs-5 magic-bfr">Magic Tricks?</div>
                                 </div>
-                            </div>
-                        </div>
+                            </div>  
+                            <div class="item4">
+                                <div className="live-img">
+                                    <img src={Live} alt="" />
+                                    <div className="live-btn-con">
+                                        <button className="btn btn-dark liv-btn-ab">Live</button>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>                        
                     </main>
                 </div>
             </div>

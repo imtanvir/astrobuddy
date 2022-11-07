@@ -1,0 +1,53 @@
+.tc-btn{
+  background-color: #fff;
+  color: #7007A3;
+}.tc-btn:hover{
+  background-color: rgb(223, 223, 223);
+  color: #7f0fb8;
+}
+.grid-container {
+    display: grid;
+    grid-template: repeat(3,1fr) / repeat(3,1fr);
+    gap: 10px;
+    height: 60%;
+    z-index: 1000 !important;
+  }
+  
+  .grid-container > div {
+    /* background-color: rgba(126, 126, 116, 0.514); */
+    text-align: center;
+    /* padding: 20px 0; */
+    font-size: 30px;
+  }
+  
+  .item1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background-image: url('./image/ChristmasAngel.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: center !important;
+  }.item2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-image: url('./image/Logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 20%;
+    background-position-y: 100%;
+  }
+  .item3 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }.item4 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
